@@ -1,0 +1,149 @@
+/*
+ *
+ * 描述:实现登录界面的渲染效果;
+ * Author: Li Ruonan
+ * Date:2016-05-13;
+ *
+ */ 
+    html{height:100%;margin:0px;padding:0px;}
+    
+    body{
+    position: relative;
+    text-align: center; 
+    -moz-background-size:100%; 
+    -webkit-background-size:100%;
+    background-size:100%;
+    background-repeat:no-repeat;
+    }
+    .label-condition{
+        width: 100px;
+    }
+    #allmap{
+    	width: 1000px;
+    	height:600px;
+    	text-align: center;
+    	font-family:"微软雅黑";
+        position: absolute;
+        top: 30px;left: 200px;
+    }
+
+    #gongneng{        
+        position: absolute;
+        top:30px;
+        width: 350px;
+        height:593px;
+        float:left;
+        border:3px solid: #C4C4C4;
+        background: #fff;
+    } 
+    #jwd{
+        float: left;
+    }
+
+    #monitor{ 
+    cursor: pointer;
+    width:  180px;
+    height: 40px;
+    padding: 5px;
+    padding-right: 5px;
+    background: #fff;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    margin-bottom: 100px;
+    -moz-box-shadow:
+        0 15px 30px 0 rgba(0,0,0,.25) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow:
+        0 15px 30px 0 rgba(0,0,0,.25) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    box-shadow: 
+        0 15px 30px 0 rgba(0,0,0,.25) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #2F4F4F;
+    font-size: 12px;
+    font-weight: 500px;
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s; 
+    }
+
+   #u{ 
+    cursor: pointer;
+    width:  100px;
+    height: 20px;
+    padding: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color:#2F4F4F;
+    font-size: 14px;
+    font-weight: 500px;
+    background:  #fff;
+    margin-bottom: 10px;
+    }
+
+    
+    #a{ 
+    width:  175px;
+    height: 30px;
+    padding: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color:#2F4F4F;
+    font-size: 14px;
+    font-weight: 500px;
+    background:  #fff;
+    margin-bottom: 10px;
+    }
+
+    #b{ 
+    width:  175px;
+    height: 30px;
+    padding: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color:#2F4F4F;
+    font-size: 14px;
+    font-weight: 500px;
+    background:  #fff;
+    margin-bottom: 10px;
+    }
+
+    #route{ 
+    cursor: pointer;
+    width:  180px;
+    height: 40px;
+    background: #fff;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    margin-bottom: 100px;
+    -moz-box-shadow:
+        0 15px 30px 0 rgba(0,0,0,.25) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow:
+        0 15px 30px 0 rgba(0,0,0,.25) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    box-shadow: 
+        0 15px 30px 0 rgba(0,0,0,.25) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #2F4F4F;
+    font-size: 12px;
+    font-weight: 500px;
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s; 
+    } 
+}
